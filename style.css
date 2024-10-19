@@ -1,0 +1,76 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/378/934/non_2x/businessman-pointing-pen-to-virtual-ai-icon-future-artificial-intelligence-innovation-concept-cloud-computing-network-technology-with-a-large-database-connected-globally-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#rose
+{
+    width:100%;
+    height:max-content;
+    position: relative;
+}
+
+form
+{
+    max-width:550px;
+    width:100%;
+    background: white;
+    margin:2vh auto 0 auto;
+    padding:40px;
+    border-radius:3px;
+    box-sizing:border-box;
+}
+h1
+{
+margin:0;
+text-align:center;
+color:rgb(75, 11, 112);
+}
+label{
+    display: block;
+    margin:20px 0;
+}
+
+input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(0, 6, 7);
+    box-sizing:border-box;
+    resize: none; 
+}
+
+.center
+{
+    text-align: center;
+}
+input[type="submit"]
+{
+ margin-top:30px;
+width:50%;
+background:rgb(75, 11, 112);
+color:#ffff;
+cursor:pointer;
+border-radius:3px;
+
+}
+.error
+{
+    color:red;
+}
+
+#success
+{
+    color:green;
+    text-align: center;
+    font-weight: bolder;
+}
